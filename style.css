@@ -24,6 +24,63 @@ body {
     background-size: 100px 100px;
 }
 
+.connecting-lines1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: 0;
+
+    pointer-events: none;
+}
+
+.connecting-lines1 path {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.4);
+    stroke-width: 2px;
+    stroke-linecap: round;
+}
+
+.connecting-lines2 {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+
+    z-index: 0;
+
+    pointer-events: none;
+}
+
+.connecting-lines2 path {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.4);
+    stroke-width: 2px;
+    stroke-linecap: round;
+}
+
+.connecting-lines3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: 0;
+
+    pointer-events: none;
+}
+
+.connecting-lines3 path {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.4);
+    stroke-width: 2px;
+    stroke-linecap: round;
+}
+
 .top-bar {
     position: absolute;
     top: 30px;
