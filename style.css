@@ -52,11 +52,13 @@ body {
     color: #e0e6ed;
     text-decoration: none;
     font-size: 25px;
+
+    transition: all 0.3s ease-in;
 }
 
 .nav-bar a:hover {
     color: #ffffff;
-    text-shadow: rgba(0,179,255,0.75) 0px 0px 53px;
+    text-shadow: rgba(0, 179, 255, 0.856) 0px 0px 53px;
 }
 
 .nav-bar a.active {
@@ -69,7 +71,7 @@ body {
 .info-container {
     position: absolute;
     top: 30%;
-    left: 20%;
+    left: 5%;
     z-index: 20;
 
     display: flex;
@@ -119,4 +121,43 @@ body {
     margin-left: -20px;
     position: relative;
     z-index: 1;
+}
+
+.sticker {
+    transition: all 1s ease;
+}
+
+.sticker:hover {
+    transform: scale(1.1);
+}
+
+.img1 {
+    width: 180px;
+    height: auto;
+    position: absolute;
+
+    top: 25%;
+    left: 75%;
+
+    transform: rotate(-45deg);
+}
+
+.img2 {
+    width: 300px;
+    height: auto;
+    position: absolute;
+
+    top: 70%;
+    left: 75%;
+
+    transform: rotate(20deg);
+}
+
+.img3 {
+    width: 400px;
+    height: auto;
+    position: absolute;
+
+    top: 50%;
+    left: 5%;
 }
